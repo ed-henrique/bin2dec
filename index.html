@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="ico/favicon.ico">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Bin2Dec</title>
+    <script src="src/index.js" type="text/javascript">
+        document.querySelector("#form").addEventListener("submit", function() {
+            event.preventDefault();
+            console.log("Opa");
+        });
+    </script>
+</head>
+<body>
+    <form id="form" onsubmit="">
+        <input type="text" name="bin">
+        <input type="submit" value="Convert">
+    </form>
+
+    <article>
+        <p>Result:</p>
+        <span></span>
+    </article>
+</body>
+</html>
