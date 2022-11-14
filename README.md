@@ -4,4 +4,8 @@ Implementation of this [idea](https://github.com/laisfrigerio/app-ideas/blob/mai
 
 ## Demo
 
+<div align="center">
+    <img src="./demo/demo.gif">
+</div>
+
 [Check it yourself](https://ed-henrique.github.io/bin2dec/).
