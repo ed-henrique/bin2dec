@@ -15,5 +15,21 @@ form {
 }
 
 form > * {
-    margin: 10px;
+    margin  : 10px;
+}
+
+input {
+    text-align: center;
+}
+
+article {
+    margin-top: 3rem;
+    text-align: center;
+    padding: 30px;
+    background-color: aquamarine;
+    border-radius: 1rem;
+}
+
+span {
+    font-size: 3rem;
 }

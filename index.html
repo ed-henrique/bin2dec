@@ -7,22 +7,17 @@
     <link rel="icon" href="ico/favicon.ico">
     <link rel="stylesheet" href="style.css" type="text/css">
     <title>Bin2Dec</title>
-    <script src="src/index.js" type="text/javascript">
-        document.querySelector("#form").addEventListener("submit", function() {
-            event.preventDefault();
-            console.log("Opa");
-        });
-    </script>
+    <script src="src/index.js" type="text/javascript"></script>
 </head>
 <body>
-    <form id="form" onsubmit="">
+    <form>
         <input type="text" name="bin">
         <input type="submit" value="Convert">
-    </form>
 
-    <article>
-        <p>Result:</p>
-        <span></span>
-    </article>
+        <article>
+            <p>Result:</p>
+            <span></span>
+        </article>
+    </form>
 </body>
 </html>
